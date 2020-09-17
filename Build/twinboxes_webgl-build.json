@@ -1,0 +1,13 @@
+{
+"companyName": "Cracked Egg Games",
+"productName": "Twin Bros.",
+"dataUrl": "twinboxes_webgl-build.data.unityweb",
+"asmCodeUrl": "twinboxes_webgl-build.asm.code.unityweb",
+"asmMemoryUrl": "twinboxes_webgl-build.asm.memory.unityweb",
+"asmFrameworkUrl": "twinboxes_webgl-build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
