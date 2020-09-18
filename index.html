@@ -10,9 +10,19 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/twinboxes_webgl-build.json", {onProgress: UnityProgress});
+
+      //set full screen automatically after 1,2 seconds
+      var expandWindow = function() {
+        
+        setTimeout(function() {
+
+          gameInstance.SetFullscreen(1);
+        },1200);
+      }
+
     </script>
   </head>
-  <body>
+  <body onload="expandWindow()">
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
